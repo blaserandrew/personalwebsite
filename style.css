@@ -1,0 +1,139 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.75);
+}
+.carousel-caption {
+	font-family: Sansation;
+	transform: translateY(-50%);
+  	margin-bottom: 200px;
+  	margin-top: 200px;
+  	background-color: rgba(0, 0, 0, 0.75);
+  	margin-left: 250px;
+    margin-right: 250px;
+}
+
+.carousel-caption h3 {
+	font-size: 60px;
+
+  
+}
+
+.carousel-caption p {
+	font-size: 18px;
+  
+}
+
+.jumbotron{
+	background-image: url(test1.jpg);
+	color: white;
+}
+
+.jumbotron h1{
+	font-family: Sansation; 
+}
+
+.jumbotron p{
+	font-family: Sansation;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+  font-family: Sansation;
+  color: white;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active,.nav-link:focus{
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+/*Black box behind text on home screen*/
+.text-block
+{
+    position: absolute;
+    bottom: 300px;
+    top: 300px;
+    left: 450px;
+    right: 450px;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*FOOTER POSITIONS*/
+.homefooter{
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: none;
+}
+
+.servicesfooter{
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: none;
+    opacity: 0.75;
+}
+.projectsfooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: none;
+    opacity: 0.75;
+}
+
+.contactfooter{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: none;
+    opacity: 0.75;
+}
